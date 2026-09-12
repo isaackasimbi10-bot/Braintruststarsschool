@@ -1,1 +1,863 @@
-BrainTruststarskindergaten and primary school 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+        content="Brain Trust Stars Kindergarten and Primary School - nurturing young minds from Baby Class to Primary Seven in Uganda.">
+
+    <meta name="keywords"
+        content="Brain Trust Stars, kindergarten, primary school, Uganda, Baby Class, P1, P2, P3, P4, P5, P6, P7">
+
+    <meta name="author" content="Brain Trust Stars Kindergarten and Primary School">
+
+    <meta name="google-site-verification"
+        content="CwAIG62KLmrH-0A-NJYCUws54rtdG2sWGrjJZPtzqu4" />
+
+    <title>Brain Trust Stars Kindergarten & Primary School</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            line-height: 1.6;
+            color: #222;
+            background: #ffffff;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        img {
+            max-width: 100%;
+            display: block;
+        }
+
+        /* ================= HEADER ================= */
+
+        header {
+            background: #073b4c;
+            color: white;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 3px 12px rgba(0,0,0,0.2);
+        }
+
+        .top-bar {
+            background: #062f3d;
+            padding: 8px 5%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 14px;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .top-bar a {
+            color: white;
+        }
+
+        .navbar {
+            max-width: 1200px;
+            margin: auto;
+            padding: 14px 5%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            color: white;
+        }
+
+        .logo-icon {
+            width: 48px;
+            height: 48px;
+            border-radius: 50%;
+            background: #ffd166;
+            color: #073b4c;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 25px;
+            font-weight: bold;
+        }
+
+        .logo-text h2 {
+            font-size: 19px;
+        }
+
+        .logo-text small {
+            font-size: 11px;
+            opacity: .9;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+        }
+
+        nav a {
+            color: white;
+            font-weight: bold;
+            font-size: 14px;
+        }
+
+        nav a:hover {
+            color: #ffd166;
+        }
+
+        .menu-btn {
+            display: none;
+            border: none;
+            background: #ffd166;
+            color: #073b4c;
+            padding: 8px 12px;
+            border-radius: 5px;
+            font-size: 20px;
+            cursor: pointer;
+        }
+
+        /* ================= HERO ================= */
+
+        .hero {
+            min-height: 620px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 70px 20px;
+            background:
+                linear-gradient(rgba(7,59,76,.78), rgba(7,59,76,.78)),
+                url("https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&w=1800&q=80")
+                center/cover;
+            color: white;
+        }
+
+        .hero-content {
+            max-width: 900px;
+        }
+
+        .hero h1 {
+            font-size: clamp(38px, 7vw, 72px);
+            margin-bottom: 15px;
+        }
+
+        .hero h1 span {
+            color: #ffd166;
+        }
+
+        .hero p {
+            font-size: 20px;
+            max-width: 700px;
+            margin: 0 auto 30px;
+        }
+
+        .buttons {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            flex-wrap: wrap;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 13px 24px;
+            border-radius: 30px;
+            font-weight: bold;
+            transition: .3s;
+        }
+
+        .btn-primary {
+            background: #ffd166;
+            color: #073b4c;
+        }
+
+        .btn-secondary {
+            border: 2px solid white;
+            color: white;
+        }
+
+        .btn:hover {
+            transform: translateY(-3px);
+            opacity: .9;
+        }
+
+        /* ================= GENERAL ================= */
+
+        section {
+            padding: 75px 5%;
+        }
+
+        .container {
+            max-width: 1150px;
+            margin: auto;
+        }
+
+        .section-title {
+            text-align: center;
+            margin-bottom: 45px;
+        }
+
+        .section-title h2 {
+            color: #073b4c;
+            font-size: 35px;
+            margin-bottom: 10px;
+        }
+
+        .section-title p {
+            color: #666;
+        }
+
+        /* ================= WELCOME ================= */
+
+        .welcome {
+            background: #f7fbfc;
+        }
+
+        .welcome-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 45px;
+            align-items: center;
+        }
+
+        .welcome-image {
+            min-height: 360px;
+            border-radius: 18px;
+            background:
+                url("https://images.unsplash.com/photo-1588072432836-e10032774350?auto=format&fit=crop&w=1000&q=80")
+                center/cover;
+            box-shadow: 0 10px 30px rgba(0,0,0,.15);
+        }
+
+        .welcome-text h3 {
+            color: #073b4c;
+            font-size: 28px;
+            margin-bottom: 15px;
+        }
+
+        .welcome-text p {
+            margin-bottom: 15px;
+            color: #555;
+        }
+
+        /* ================= CARDS ================= */
+
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 25px;
+        }
+
+        .card {
+            padding: 30px 25px;
+            background: white;
+            border-radius: 15px;
+            text-align: center;
+            box-shadow: 0 5px 20px rgba(0,0,0,.08);
+            transition: .3s;
+        }
+
+        .card:hover {
+            transform: translateY(-7px);
+        }
+
+        .card-icon {
+            font-size: 42px;
+            margin-bottom: 15px;
+        }
+
+        .card h3 {
+            color: #073b4c;
+            margin-bottom: 10px;
+        }
+
+        .card p {
+            color: #666;
+        }
+
+        /* ================= ABOUT ================= */
+
+        .about {
+            background: #fff;
+        }
+
+        .about-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 25px;
+        }
+
+        .about-box {
+            padding: 30px;
+            border-left: 5px solid #ffd166;
+            background: #f7fbfc;
+            border-radius: 8px;
+        }
+
+        .about-box h3 {
+            color: #073b4c;
+            margin-bottom: 10px;
+        }
+
+        /* ================= ACADEMICS ================= */
+
+        .academics {
+            background: #f7fbfc;
+        }
+
+        .class-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 18px;
+        }
+
+        .class-box {
+            background: white;
+            padding: 25px 15px;
+            text-align: center;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,.07);
+            font-weight: bold;
+            color: #073b4c;
+        }
+
+        .class-box span {
+            display: block;
+            font-size: 30px;
+            margin-bottom: 8px;
+        }
+
+        /* ================= ADMISSIONS ================= */
+
+        .admission {
+            background: #073b4c;
+            color: white;
+        }
+
+        .admission .section-title h2,
+        .admission .section-title p {
+            color: white;
+        }
+
+        .admission-box {
+            max-width: 850px;
+            margin: auto;
+            text-align: center;
+        }
+
+        .admission-steps {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            margin: 30px 0;
+        }
+
+        .step {
+            padding: 25px;
+            border: 1px solid rgba(255,255,255,.25);
+            border-radius: 12px;
+        }
+
+        .step strong {
+            display: block;
+            font-size: 30px;
+            color: #ffd166;
+        }
+
+        /* ================= FEES ================= */
+
+        .fees-table {
+            width: 100%;
+            border-collapse: collapse;
+            background: white;
+            box-shadow: 0 5px 20px rgba(0,0,0,.08);
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        .fees-table th,
+        .fees-table td {
+            padding: 16px;
+            border-bottom: 1px solid #eee;
+            text-align: left;
+        }
+
+        .fees-table th {
+            background: #073b4c;
+            color: white;
+        }
+
+        .fees-note {
+            margin-top: 20px;
+            padding: 15px;
+            background: #fff8df;
+            border-left: 5px solid #ffd166;
+        }
+
+        /* ================= GALLERY ================= */
+
+        .gallery {
+            background: #f7fbfc;
+        }
+
+        .gallery-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 15px;
+        }
+
+        .gallery-item {
+            height: 240px;
+            border-radius: 12px;
+            overflow: hidden;
+            background-size: cover;
+            background-position: center;
+            transition: .3s;
+        }
+
+        .gallery-item:hover {
+            transform: scale(1.02);
+        }
+
+        .gallery1 {
+            background-image: url("https://images.unsplash.com/photo-1577896851231-70ef18881754?auto=format&fit=crop&w=900&q=80");
+        }
+
+        .gallery2 {
+            background-image: url("https://images.unsplash.com/photo-1503676260728-1c00da094a0b?auto=format&fit=crop&w=900&q=80");
+        }
+
+        .gallery3 {
+            background-image: url("https://images.unsplash.com/photo-1580582932707-520aed937b7b?auto=format&fit=crop&w=900&q=80");
+        }
+
+        .gallery4 {
+            background-image: url("https://images.unsplash.com/photo-1560785496-3c9d27877182?auto=format&fit=crop&w=900&q=80");
+        }
+
+        .gallery5 {
+            background-image: url("https://images.unsplash.com/photo-1587654780291-39c9404d746b?auto=format&fit=crop&w=900&q=80");
+        }
+
+        .gallery6 {
+            background-image: url("https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&w=900&q=80");
+        }
+
+        /* ================= NEWS ================= */
+
+        .news-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 25px;
+        }
+
+        .news-card {
+            border-radius: 12px;
+            overflow: hidden;
+            background: white;
+            box-shadow: 0 5px 20px rgba(0,0,0,.08);
+        }
+
+        .news-image {
+            height: 180px;
+            background-size: cover;
+            background-position: center;
+        }
+
+        .news-content {
+            padding: 22px;
+        }
+
+        .news-content h3 {
+            color: #073b4c;
+            margin-bottom: 10px;
+        }
+
+        /* ================= CONTACT ================= */
+
+        .contact {
+            background: #f7fbfc;
+        }
+
+        .contact-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 35px;
+        }
+
+        .contact-info {
+            background: #073b4c;
+            color: white;
+            padding: 35px;
+            border-radius: 15px;
+        }
+
+        .contact-info h3 {
+            color: #ffd166;
+            margin-bottom: 20px;
+        }
+
+        .contact-item {
+            margin-bottom: 20px;
+        }
+
+        .contact-item strong {
+            display: block;
+            margin-bottom: 3px;
+        }
+
+        form {
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 5px 20px rgba(0,0,0,.08);
+        }
+
+        input,
+        select,
+        textarea {
+            width: 100%;
+            padding: 13px;
+            margin-bottom: 15px;
+            border: 1px solid #ddd;
+            border-radius: 7px;
+            font-family: inherit;
+            font-size: 15px;
+        }
+
+        textarea {
+            height: 120px;
+            resize: vertical;
+        }
+
+        button {
+            cursor: pointer;
+            border: none;
+        }
+
+        .form-btn {
+            width: 100%;
+            padding: 14px;
+            border-radius: 7px;
+            background: #073b4c;
+            color: white;
+            font-weight: bold;
+        }
+
+        /* ================= FOOTER ================= */
+
+        footer {
+            background: #062f3d;
+            color: white;
+            padding: 50px 5% 20px;
+        }
+
+        .footer-grid {
+            max-width: 1150px;
+            margin: auto;
+            display: grid;
+            grid-template-columns: 2fr 1fr 1fr;
+            gap: 35px;
+        }
+
+        footer h3 {
+            color: #ffd166;
+            margin-bottom: 15px;
+        }
+
+        footer ul {
+            list-style: none;
+        }
+
+        footer li {
+            margin-bottom: 8px;
+        }
+
+        footer a {
+            color: #ddd;
+        }
+
+        footer a:hover {
+            color: #ffd166;
+        }
+
+        .copyright {
+            max-width: 1150px;
+            margin: 35px auto 0;
+            padding-top: 20px;
+            border-top: 1px solid rgba(255,255,255,.15);
+            text-align: center;
+            color: #ccc;
+            font-size: 14px;
+        }
+
+        /* ================= WHATSAPP ================= */
+
+        .whatsapp {
+            position: fixed;
+            right: 20px;
+            bottom: 20px;
+            width: 58px;
+            height: 58px;
+            border-radius: 50%;
+            background: #25D366;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 28px;
+            z-index: 2000;
+            box-shadow: 0 5px 15px rgba(0,0,0,.25);
+        }
+
+        /* ================= RESPONSIVE ================= */
+
+        @media(max-width: 850px) {
+
+            .menu-btn {
+                display: block;
+            }
+
+            nav ul {
+                display: none;
+                position: absolute;
+                top: 100%;
+                left: 0;
+                right: 0;
+                background: #073b4c;
+                flex-direction: column;
+                padding: 20px 5%;
+                gap: 18px;
+            }
+
+            nav ul.show {
+                display: flex;
+            }
+
+            .cards,
+            .news-grid {
+                grid-template-columns: 1fr 1fr;
+            }
+
+            .class-grid {
+                grid-template-columns: 1fr 1fr;
+            }
+
+            .welcome-grid,
+            .contact-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .about-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .footer-grid {
+                grid-template-columns: 1fr 1fr;
+            }
+        }
+
+        @media(max-width: 600px) {
+
+            .top-bar {
+                justify-content: center;
+                text-align: center;
+            }
+
+            .navbar {
+                padding: 12px 4%;
+            }
+
+            .logo-text h2 {
+                font-size: 15px;
+            }
+
+            .hero {
+                min-height: 560px;
+            }
+
+            section {
+                padding: 55px 5%;
+            }
+
+            .cards,
+            .news-grid,
+            .class-grid,
+            .gallery-grid,
+            .admission-steps,
+            .footer-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .gallery-item {
+                height: 220px;
+            }
+
+            .fees-table {
+                font-size: 14px;
+            }
+
+            .fees-table th,
+            .fees-table td {
+                padding: 11px 8px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- ================= HEADER ================= -->
+
+    <header>
+
+        <div class="top-bar">
+            <span>📚 Excellence • Discipline • Character</span>
+            <span>
+                📞 <a href="tel:+256765195026">+256 765 195026</a>
+            </span>
+        </div>
+
+        <div class="navbar">
+
+            <a href="#home" class="logo">
+
+                <div class="logo-icon">B</div>
+
+                <div class="logo-text">
+                    <h2>Brain Trust Stars</h2>
+                    <small>Kindergarten & Primary School</small>
+                </div>
+
+            </a>
+
+            <nav>
+
+                <button class="menu-btn" onclick="toggleMenu()">
+                    ☰
+                </button>
+
+                <ul id="navMenu">
+
+                    <li><a href="#home">Home</a></li>
+
+                    <li><a href="#about">About</a></li>
+
+                    <li><a href="#academics">Academics</a></li>
+
+                    <li><a href="#admissions">Admissions</a></li>
+
+                    <li><a href="#fees">Fees</a></li>
+
+                    <li><a href="#gallery">Gallery</a></li>
+
+                    <li><a href="#contact">Contact</a></li>
+
+                </ul>
+
+            </nav>
+
+        </div>
+
+    </header>
+
+
+    <!-- ================= HERO ================= -->
+
+    <section class="hero" id="home">
+
+        <div class="hero-content">
+
+            <h1>
+                Brain Trust <span>Stars</span>
+            </h1>
+
+            <p>
+                Kindergarten & Primary School
+            </p>
+
+            <p>
+                Nurturing young minds, building strong character,
+                and preparing children for a bright future.
+            </p>
+
+            <div class="buttons">
+
+                <a href="#admissions" class="btn btn-primary">
+                    Apply for Admission
+                </a>
+
+                <a href="#contact" class="btn btn-secondary">
+                    Contact Us
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= WELCOME ================= -->
+
+    <section class="welcome">
+
+        <div class="container">
+
+            <div class="welcome-grid">
+
+                <div class="welcome-image"></div>
+
+                <div class="welcome-text">
+
+                    <h3>Welcome to Brain Trust Stars</h3>
+
+                    <p>
+                        At Brain Trust Stars Kindergarten and Primary School,
+                        we believe every child has the ability to learn,
+                        grow and shine.
+                    </p>
+
+                    <p>
+                        Our school provides a supportive learning environment
+                        where pupils develop academically, socially,
+                        physically and morally.
+                    </p>
+
+                    <p>
+                        From the early years through Primary Seven,
+                        we work together with parents to help every learner
+                        reach their potential.
+                    </p>
+
+                    <a href="#about" class="btn btn-primary">
+                        Learn More
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= WHY US ========== 
